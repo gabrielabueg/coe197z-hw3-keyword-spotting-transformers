@@ -62,7 +62,7 @@ This homework is based on [Sovit Ranjan Raths Tutorial series on object detectio
   5.1 Video file must be named `input_video.mp4`, resultng output will be an mp4 file called `output_video.mp4`
   
 ## Code Execution
-If all files and input files have their correct filenames and are in their respective folders\
+If all files and input files have their correct filenames, are in their respective folders and the current working directory is `/src`\
 run:\
     `python inf_batch.py` if doing inference per batch of photos\
     `python inf_single.py` if doing inference on a single photo\
