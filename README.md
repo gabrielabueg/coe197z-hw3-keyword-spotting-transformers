@@ -55,10 +55,10 @@ This homework is based on [Sovit Ranjan Raths Tutorial series on object detectio
 1. Clone the repository
 2. Download necessary libraries/modules/packages using `pip install -r requirements.txt`
 3. cd to src folder  `cd src`
-4. Put images in the test_data folder for inference
-  4.1 If running inference by batch, file name is unnecessary
+4. Put images in the test_data folder for inference\
+  4.1 If running inference by batch, file name is unnecessary\
   4.2 If running inference on a single photo, filename must be `input_img.jpg` , resulting output will be `Out_img`
-5. Put videos in the test_data_videos folder for inference
+5. Put videos in the test_data_videos folder for inference\
   5.1 Video file must be named `input_video.mp4`, resultng output will be an mp4 file called `output_video.mp4`
   
 ## Code Execution
@@ -66,7 +66,7 @@ If all files and input files have their correct filenames and are in their respe
 run:\
     `python inf_batch.py` if doing inference per batch of photos\
     `python inf_single.py` if doing inference on a single photo\
-    `python inf_video.py` if doing inference on a video\
+    `python inf_video.py` if doing inference on a video
     
 ## Outputs and Graphs
 <p align="center">
@@ -81,10 +81,19 @@ run:\
 	<img src ="https://user-images.githubusercontent.com/67114171/166145928-6dd11e16-912d-4be4-a402-50fa89a8c24c.jpg">
 	<br>
 	<b> Sample Image Output </b>
-
-
+	<br><br>
 </p>
 
+### Video Output Files
+The coke can used in the output is not the same as the coke can used in the dataset, this is due to the student being unable to find a similar coke cak in stores, the model detects this specific coke can as a summit water bottle, possibly due to images used in the dataset where the water bottle has a red background.\
+\
+Furthermore, there are 2 more sample outputs in the `test_predictions/` folder, each with the same original video, showing the real time detection with thresholds 0.3 and 0.4
+
+
+### Sample Outputs
+
+Sample video outputs and single image inference outputs can be found in this drive link:\
+https://drive.google.com/drive/folders/1_Zg7GCtsAYXIIZSaTUme2_lJihM0ZtXw?usp=sharing
 
 
 
