@@ -81,8 +81,8 @@ for i in range(len(test_images)):
                         cv2.FONT_HERSHEY_SIMPLEX, 0.4, color, 
                         1)
 
-        cv2.imshow('Prediction', orig_image)
-        cv2.waitKey(1)
+        # cv2.imshow('Prediction', orig_image)
+        # cv2.waitKey(1)
         cv2.imwrite(f"../test_predictions/out_{image_name}.jpg", orig_image,)
     print(f"Image {i+1} done...")
     print('-'*50)

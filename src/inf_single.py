@@ -75,6 +75,6 @@ for j, box in enumerate(draw_boxes):
                 cv2.FONT_HERSHEY_SIMPLEX, 0.4, color, 
                         1)
 
-cv2.imshow('Image', orig_image)
+# cv2.imshow('Image', orig_image)
 cv2.imwrite(f"../test_predictions/Out_img.jpg", orig_image)
 cv2.waitKey(0)
