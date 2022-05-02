@@ -62,7 +62,7 @@ print('------------------------------',COLORS)
 CLASSES = [
     'background', 'Pine Juice', 'Summit Water', 'Cola']
 
-detection_threshold = 0.6
+detection_threshold = 0.4
 
 
 cap = cv2.VideoCapture("../test_data_video/input_video.mp4")
