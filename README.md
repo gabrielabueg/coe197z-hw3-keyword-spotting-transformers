@@ -54,7 +54,7 @@ This homework is based on [Sovit Ranjan Raths Tutorial series on object detectio
 ## Prerequisite/Setup
 1. Clone the repository
 2. Download necessary libraries/modules/packages using `pip install -r requirements.txt`
-3. cd to src folder  `cd src`
+3. /* **EDIT no longer needed** ~~cd to src folder  `cd src`~~
 4. Put images in the test_data folder for inference\
   4.1 If running inference by batch, file name is unnecessary\
   4.2 If running inference on a single photo, filename must be `input_img.jpg` , resulting output will be `Out_img`
@@ -62,11 +62,12 @@ This homework is based on [Sovit Ranjan Raths Tutorial series on object detectio
   5.1 Video file must be named `input_video.mp4`, resultng output will be an mp4 file called `output_video.mp4`
   
 ## Code Execution
-If all files and input files have their correct filenames, are in their respective folders and the current working directory is `/src`\
+If all files and input files have their correct filenames, are in their respective folders * ~~and the current working directory is /src~~
 run:\
     `python inf_batch.py` if doing inference per batch of photos\
     `python inf_single.py` if doing inference on a single photo\
-    `python inf_video.py` if doing inference on a video
+    * ~~`python inf_video.py`~~ `python test.py` if doing inference on a video\
+    `python train.py` to train the model
     
 ## Outputs and Graphs
 <p align="center">
