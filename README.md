@@ -16,15 +16,14 @@ This homework is based on: \
   
 ## Code Execution
 
-    `python train.py` for training\
-    `python kws-infer.py --gui` if doing real time inference on a gui\
+    `python train.py` for training
+    `python kws-infer.py --gui` if doing real time inference on a gui
     
 ## Outputs and Graphs
 
-The training is done on Google Colab, and the model is able to reach 88.4% accuracy with a test loss of 0.467 at Epoch 15, 
-before google colab gpu runtime has expired. 
+The training is done on Google Colab, and the model is able to reach 89.1% accuracy with a test loss of 0.481 at 30 epochs.
 
-The demo app is gui-based and can recognize keywords from the PCs mic. Terminates if the keyword recognized is 'stop' \
+The demo app is gui-based and can recognize keywords from the PCs mic. Terminates if the keyword recognized is 'stop' 
 
 
 
