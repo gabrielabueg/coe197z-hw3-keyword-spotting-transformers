@@ -12,7 +12,7 @@ This homework is based on: \
   
 ## Prerequisite/Setup
 1. Clone the repository
-2. Download necessary libraries/modules/packages using `pip install -r requirements.txt` \
+2. Download necessary libraries/modules/packages using `pip install -r requirements.txt` 
   
 ## Code Execution
 
@@ -21,7 +21,7 @@ This homework is based on: \
     
 ## Outputs and Graphs
 
-The training is done on Google Colab, and the model is able to reach 89.1% accuracy with a test loss of 0.481 at 30 epochs.
+The training is done on Kaggle and Google Colab, and the model is able to reach 90% accuracy at 30 epochs.
 
 The demo app is gui-based and can recognize keywords from the PCs mic. Terminates if the keyword recognized is 'stop' 
 

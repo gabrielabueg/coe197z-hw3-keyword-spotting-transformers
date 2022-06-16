@@ -113,6 +113,8 @@ if __name__ == "__main__":
     if not args.gui:
         mel = ToTensor()(librosa.power_to_db(transform(waveform).squeeze().numpy(), ref=np.max))
         mel = mel.unsqueeze(0)
+        mel = rearrange(mel, 'b c h (p1 w) -> b p1 (c h w)', p1=args.patch_num)
+
 
         pred = torch.argmax(scripted_module(mel), dim=1)
         print(f"Ground Truth: {label}, Prediction: {idx_to_class[pred.item()]}")
