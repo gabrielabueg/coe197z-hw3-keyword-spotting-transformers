@@ -48,7 +48,7 @@ def get_args():
     parser.add_argument("--win-length", type=int, default=None)
     parser.add_argument("--hop-length", type=int, default=512)
     parser.add_argument("--wav-file", type=str, default=None)
-    parser.add_argument("--checkpoint", type=str, default="https://github.com/roatienza/Deep-Learning-Experiments/releases/download/models/transformer-kws-best-acc.pt")
+    parser.add_argument("--checkpoint", type=str, default="https://github.com/gabrielabueg/coe197z/blob/main/transformer-kws-best-acc.pt")
     parser.add_argument("--gui", default=False, action="store_true")
     parser.add_argument("--rpi", default=False, action="store_true")
     parser.add_argument('--patch_num', type=int, default=16, help='patch_num')
